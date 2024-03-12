@@ -1,8 +1,23 @@
 header {
     background-color: blue;
 }
+.headerDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
 
-h1 {
+#searchBar {
+    font-size: xx-large; 
+    height: 50px;
+    width: 1000px;
+    margin-right: 25px;
+}
+
+#mainHeader {
+    font-size: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,4 +34,18 @@ button {
     align-items: center;
     width: 100px;
     height: 60px;
+}
+
+li {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    font-size: xx-large;
+    list-style: none;
+}
+
+#navbarHeaderItems {
+    display: flex;
+    justify-content: space-around;
+    background-color: brown;
 }
