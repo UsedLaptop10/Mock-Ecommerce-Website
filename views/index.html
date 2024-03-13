@@ -7,23 +7,28 @@
     <link rel="stylesheet" href="../styles/style.css">
     <title>Document</title>
 </head>
-<body>
-    <header>
-        <div class="headerDiv">
-            <h1 id="mainHeader">E-Commerce Mock Website</h1>
-            <input type="text" name="searhBar" id="searchBar">
+<header>
+    <div class="headerDiv">
+        <h1 id="mainHeader">E-Commerce Mock Website</h1>
+        <div id="searchBarDiv">
+            <input type="text" name="searhBar" id="searchBar" placeholder="Search" maxlength="100">
+            <input type="button" id="searchButton" value="Click to Search">
         </div>
-        <nav class="headerNavbar">
-            <ul id="navbarHeaderItems">
-                <li>Browse</li>
-                <li>Cart</li>
-                <li>Wish List</li>
-                <li>Your Store</li>
-                <li>Category</li>
-            </ul>
-        </nav>
-    </header>
+    </div>
+    <nav class="headerNavbar">
+        <ul id="navbarHeaderItems">
+            <li>Browse</li>
+            <li>Cart</li>
+            <li>Wish List</li>
+            <li>Your Store</li>
+            <li>Category</li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <h1 id="testPara"></h1>
     <button id="countPage">Go to Store</button>
 </body>
 <script src="../routes/toCountPage.js"></script>
+<script src="../scripts/searchResult.js"></script>
 </html>

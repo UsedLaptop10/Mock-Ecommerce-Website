@@ -16,13 +16,13 @@ function updateCounter() {
 };
 
 function AddSubtractCount() {
-    storeButtonUp.addEventListener('click', function() {
+    storeButtonUp.addEventListener('click', () => {
         count ++;
         updateCounter();
         console.log('clicked up');
         console.log(count);
     });
-    storeButtonDown.addEventListener('click', function() {
+    storeButtonDown.addEventListener('click', () => {
         count --;
         updateCounter();
         console.log('clicked down');

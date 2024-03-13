@@ -9,11 +9,21 @@ header {
     margin: 0px;
 }
 
+#searchBarDiv {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
 #searchBar {
     font-size: xx-large; 
     height: 50px;
     width: 1000px;
     margin-right: 25px;
+}
+
+#searchButton {
+    height: 40px;
 }
 
 #mainHeader {
