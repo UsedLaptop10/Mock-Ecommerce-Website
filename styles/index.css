@@ -1,9 +1,14 @@
 header {
     background-color: blue;
 }
+
+h1 {
+    padding: 1px;
+}
+
 .headerDiv {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0px;
     margin: 0px;
@@ -26,6 +31,15 @@ header {
     height: 40px;
 }
 
+.add {
+    font-size: x-large;
+    min-width: 110px;
+}
+
+.remove {
+    font-size: x-large;
+}
+
 #mainHeader {
     font-size: 50px;
     display: flex;
@@ -39,11 +53,12 @@ header {
 }
 
 button {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     width: 100px;
     height: 60px;
+    
 }
 
 li {
@@ -56,6 +71,32 @@ li {
 
 #navbarHeaderItems {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     background-color: brown;
+}
+
+.mainBodyDiv {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#productTag {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    min-height: 100px;
+}
+
+.hidden {
+    display: none;
 }

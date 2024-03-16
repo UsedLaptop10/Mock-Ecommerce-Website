@@ -9,26 +9,127 @@
 </head>
 <header>
     <div class="headerDiv">
-        <h1 id="mainHeader">E-Commerce Mock Website</h1>
+        <h1 id="mainHeader">Online Shop</h1>
         <div id="searchBarDiv">
-            <input type="text" name="searhBar" id="searchBar" placeholder="Search" maxlength="100">
-            <input type="button" id="searchButton" value="Click to Search">
+            <!-- <input type="text" name="searhBar" id="searchBar" placeholder="Search" maxlength="100">
+            <input type="button" id="searchButton" value="Click to Search"> -->
         </div>
     </div>
     <nav class="headerNavbar">
         <ul id="navbarHeaderItems">
-            <li>Browse</li>
-            <li>Cart</li>
-            <li>Wish List</li>
-            <li>Your Store</li>
-            <li>Category</li>
+            <li id="wishlist">Wishlist: </li>
+            <li id="wishlistItem1"></li>
+            <li id="wishlistItem2"></li>
+            <li id="wishlistItem3"></li>
+            <li id="wishlistItem4"></li>
+            <li id="wishlistItem5"></li>
+            <li id="wishlistItem6"></li>
+            <li id="wishlistItem7"></li>
+            <li id="wishlistItem8"></li>
+            <li id="wishlistItem9"></li>
+            <li id="wishlistItem10"></li>
+
         </ul>
     </nav>
 </header>
 <body>
     <h1 id="testPara"></h1>
     <button id="countPage">Go to Store</button>
+    <div class="mainBodyDiv">
+        <div class="productDiv">
+            <img src="../public/fishingLine.png" alt="fishing line" class="productImage">
+            <h1 id="productTag">Fishing line</h1>
+            <h1 id="productTag">price: <span>10 dollars</span></h1>
+            <div>
+                <input type="button" name="add" class="add" id="addfishing" value="Add">
+                <input type="button" name="remove" class="remove" id="removefishing" value="Remove">
+            </div>
+        </div>
+        <div class="productDiv">
+            <img src="../public/dice.jpeg" alt="dice" class="productImage">
+            <h1 id="productTag">Dices</h1>
+            <h1 id="productTag">price: <span>5 dollars</span></h1>
+            <div>
+                <input type="button" name="add" class="add" id="adddice" value="Add">
+                <input type="button" name="remove" class="remove" id="removedice" value="Remove">
+            </div>
+        </div>
+        <div class="productDiv">
+            <img src="../public/randomTree.jpg" alt="tree" class="productImage">
+            <h1 id="productTag">A Whole Damn Tree</h1>
+            <h1 id="productTag">price: <span>100 dollars</span></h1>
+            <div>
+                <input type="button" name="add" class="add" id="addtree" value="Add">
+                <input type="button" name="remove" class="remove" id="removetree" value="Remove">
+            </div>
+        </div>
+        <div class="productDiv">
+            <img src="../public/timberbot.png" alt="robot lumberjack" class="productImage">
+            <h1 id="productTag">Assistant Robot</h1>
+            <h1 id="productTag">price: <span>150 dollars</span></h1>
+            <div>
+                <input type="button" name="add" class="add" id="addbot" value="Add">
+                <input type="button" name="remove" class="remove" id="removebot" value="Remove">
+            </div>
+        </div>
+        <div class="productDiv">
+            <img src="../public/turboTurtle.jpeg" alt="rocket turtle" class="productImage">
+            <h1 id="productTag">Automated Turtle Rocket</h1>
+            <h1 id="productTag">price: <span>500 dollars</span></h1>
+            <div>
+                <input type="button" name="add" class="add" id="addturtle" value="Add">
+                <input type="button" name="remove" class="remove" id="removeturtle" value="Remove">
+            </div>
+        </div>
+        <div class="productDiv">
+            <img src="../public/coins.jpeg" alt="coins" class="productImage">
+            <h1 id="productTag">Davy Jones Coins</h1>
+            <h1 id="productTag">price: <span>400 dollars</span></h1>
+            <div>
+                <input type="button" name="add" class="add" id="addcoins" value="Add">
+                <input type="button" name="remove" class="remove" id="removecoins" value="Remove">
+            </div>
+        </div>
+        <div class="productDiv">
+            <img src="../public/cursedBundle.jpg" alt="cursed bundle" class="productImage">
+            <h1 id="productTag">Cursed Bundle</h1>
+            <h1 id="productTag">price: <span>1 dollars</span></h1>
+            <div>
+                <input type="button" name="add" class="add" id="addbundle" value="Add">
+                <input type="button" name="remove" class="remove" id="removebundle" value="Remove">
+            </div>
+        </div>
+        <div class="productDiv">
+            <img src="../public/dawg.jpeg" alt="dawg" class="productImage">
+            <h1 id="productTag">Crazy Dawg</h1>
+            <h1 id="productTag">price: <span>1000 dollars</span></h1>
+            <div>
+                <input type="button" name="add" class="add" id="adddawg" value="Add">
+                <input type="button" name="remove" class="remove" id="removedawg" value="Remove">
+            </div>
+        </div>
+        <div class="productDiv">
+            <img src="../public/decoration.jpg" alt="decoration" class="productImage">
+            <h1 id="productTag">Fancy Decoration</h1>
+            <h1 id="productTag">price: <span>80 dollars</span></h1>
+            <div>
+                <input type="button" name="add" class="add" id="adddecoration" value="Add">
+                <input type="button" name="remove" class="remove" id="removedecoration" value="Remove">
+            </div>
+        </div>
+        <div class="productDiv">
+            <img src="../public/orbitalSander.jpg" alt="orbital sander" class="productImage">
+            <h1 id="productTag">Orbital sander</h1>
+            <h1 id="productTag">price: <span>125 dollars</span></h1>
+            <div>
+                <input type="button" name="add" class="add" id="addorbital" value="Add">
+                <input type="button" name="remove" class="remove" id="removeorbital" value="Remove">
+            </div>
+        </div>
+    </div>
 </body>
-<script src="../routes/toCountPage.js"></script>
-<script src="../scripts/searchResult.js"></script>
+<footer>
+    <h1>Have Fun Shopping!</h1>
+</footer>
+<script src="../scripts/script.js"></script>
 </html>
